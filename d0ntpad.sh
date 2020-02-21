@@ -11,8 +11,8 @@ read -p "Informe o nome do arquivo: " nome
 read -p "Informe o número inicial: " numInicial
 read -p "Informe o número final: " numFinal
 
-mkdir $nome.$numInicial-$numFinal
-cd $nome.$numInicial-$numFinal
+mkdir d0ntpad.$nome.$numInicial-$numFinal
+cd d0ntpad.$nome.$numInicial-$numFinal
 
 wget -q dontpad.com/$nome.txt
 echo
