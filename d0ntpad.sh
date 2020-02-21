@@ -1,7 +1,7 @@
 #!/bin/bash
 
 clear
-echo "Scan simples encontrar informações de arquivos do Dontpad.com"
+echo "Scan simples para encontrar informações de arquivos do Dontpad.com"
 echo
 echo "Script desenvolvido por Eduardo Buzzi"
 echo "Mais Scripts em: https://github.com/eduardbuzzi"
