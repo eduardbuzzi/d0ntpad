@@ -19,7 +19,7 @@ echo -e "\033[01;31mNão tem nada dentro do dontpad.com/$NUM\033[01;00m"
 rm $NUM.txt
 
 else
-echo -e "\033[01;32mEncontrei algo interessante dentro do dontpad.com/$NUM>
+echo -e "\033[01;32mEncontrei algo interessante dentro do dontpad.com/$NUM\033[01;00m"
 touch $PWD/$logRANDOMnumber/$NUM
 echo -e "\033[00;33m$TRUEorFALSE\033[01;00m" > $PWD/$logRANDOMnumber/$NUM
 echo >> $PWD/$logRANDOMnumber/$NUM
