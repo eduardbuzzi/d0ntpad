@@ -15,11 +15,11 @@ TRUEorFALSE=$(cat $NUM.txt)
 if [ -z "$TRUEorFALSE" ]
 
 then
-echo "Não tem nada dentro do dontpad.com/$NUM"
+echo -e "\033[01;31mNão tem nada dentro do dontpad.com/$NUM\033[01;00m"
 rm $NUM.txt
 
 else
-echo "Encontrei algo interessante dentro do dontpad.com/$NUM"
+echo -e "\033[01;32mEncontrei algo interessante dentro do dontpad.com/$NUM\033[01;00m"
 touch $PWD/$logRANDOMnumber/$NUM
 echo $TRUEorFALSE > $PWD/$logRANDOMnumber/$NUM
 rm $NUM.txt
