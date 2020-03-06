@@ -1,6 +1,7 @@
 read -p "Informe o número mínimo: " numMIN
 read -p "Informe o número máximo: " numMAX
 read -p "Informe o nome do arquivo que será salvo com o log: " logRANDOMnumber
+echo
 
 rm -rf $logRANDOMnumber
 mkdir $logRANDOMnumber
