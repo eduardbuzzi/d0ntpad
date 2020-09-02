@@ -4,7 +4,7 @@ clear
 echo "Scan simples para encontrar informações de arquivos do Dontpad.com"
 echo
 echo "Script desenvolvido por Eduardo Buzzi"
-echo "Mais Scripts em: https://github.com/eduardbuzzi"
+echo "Mais Scripts em: https://github.com/edubuzzi"
 echo
 
 read -p "Informe o nome do arquivo: " nome
